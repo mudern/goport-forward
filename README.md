@@ -35,7 +35,7 @@ GoPort-Forward is a simple TCP port forwarding tool written in Go. It reads from
    ```json
    {
      "source": ["127.0.0.1:445"],
-     "target": ["47.109.140.49:4399"]
+     "target": ["xx.xx.xx.xx:xxx"]
    }
    ```
    You can modify this file to configure your desired source and target addresses.
@@ -62,12 +62,12 @@ GoPort-Forward is a simple TCP port forwarding tool written in Go. It reads from
 ```json
 {
     "source": ["127.0.0.1:445", "120.0.0.1:80"],
-    "target": ["47.109.140.49:4399", "192.168.1.1:30"]
+    "target": ["xx.xx.xx.xx:xxx", "192.168.1.1:30"]
 }
 ```
 
 This configuration forwards:
-- Traffic from `127.0.0.1:445` to `47.109.140.49:4399`
+- Traffic from `127.0.0.1:445` to `xx.xx.xx.xx:xxx`
 - Traffic from `120.0.0.1:80` to `192.168.1.1:30`
 
 ## Logging
